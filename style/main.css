@@ -1,0 +1,117 @@
+ul.nav-menu-buttons li {
+    display: inline;
+}
+
+.button {
+    height: 50px;
+    width: 120px;
+    border-color: #EF7F19;
+    background-color: #FDC702;
+    border-style: solid;
+    border-width: 2px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #543C32;
+}
+
+.nav-menu-buttons {
+    display: inline;
+}
+
+.nav-menu {
+    display: inline;
+    margin-left: 110px;
+    margin-right: auto;
+}
+
+html {
+    background-color: #332E2A;
+}
+body {
+    width: 820px;
+    margin: 10px auto 5px auto;
+    background-color: #FFF183;
+    padding: 20px;
+    font-family: Georgia, Arial, serif;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: #764A3D;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 65px;
+}
+#ulp {
+    text-align: left;
+}
+a.button:hover {
+    color: #FFF189;
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+    color: #543C32;
+}
+#kuulutus1 {
+    width: 450px;
+    text-align: center;
+    border:2px groove;
+    border-radius: 5px;
+}
+#kuulutus1:hover {
+    color: red;
+}
+#kuulutus2 {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: Calibri;
+}
+#kuulutus2:hover {
+    color: red;
+    background-color: blue;
+}
+hr {
+    width: 80%;
+    height: 6px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+#plan td, #plan th {
+    opacity: 0.65;
+}
+#plan td:HOVER, #plan th:HOVER {
+    opacity: 1.0;
+}
+th {
+    background-color: brown;
+}
+
+#prices_table {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#samples {
+    margin-left: 10px;
+}
+
+#content {
+    min-height: 500px;
+}
+
+#logo-img {
+    margin: auto;
+}
