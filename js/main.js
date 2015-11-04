@@ -8,19 +8,21 @@ function loadContentByHash(hash) {
     console.log(filename[0]);
     console.log($.inArray(filename, allowedPages));
 
+    /*
     if ($.inArray(filename[0], allowedPages) === -1) {
         $("#content").load("home.html");
     } else {
         $("#content").load(filename + ".html");
     }
+    */
 
-    /*
+
     if (filename != "") {
         $("#content").load(filename + ".html");
     } else {
         $("#content").load("home.html");
     }
-    */
+
 }
 
 function loadContent() {
@@ -29,9 +31,8 @@ function loadContent() {
 
 $(document).ready(function(){
     var url = window.location.hash;
-    $("#header").load("header.html", function(){
-
-    });
+    console.log(url);
+    $("#header").load("header.html");
     loadContentByHash(url);
     $("#footer").load("footer.html");
 

@@ -109,9 +109,17 @@ th {
 }
 
 #content {
-    min-height: 500px;
+    /*min-height: 500px;*/  
 }
 
 #logo-img {
     margin: auto;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+a.navbar-logo {
+    padding: 0 0 0 15px;
 }
